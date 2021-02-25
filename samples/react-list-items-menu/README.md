@@ -3,7 +3,7 @@
 ## Summary
 
 This web part allows user create a navigation menu , grouped by any column of document library.
-When the user clicks on the header it dynamically load documents. 
+When the user clicks on the header it dynamically load documents.
 
 ![ListItemsMenu](./assets/ListMenuDocs.gif)
 
@@ -45,12 +45,16 @@ The Web Part Use PnPjs library, Fluent-Ui-react components
 Solution|Author(s)
 --------|---------
 React List Items Menu |[João Mendes](https://github.com/joaojmendes) ([@joaojmendes](https://twitter.com/joaojmendes))
+React List Items Menu |[Ravi Chandra](https://github.com/Ravikadri)
+
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
 1.0.0|November 20, 2020|Initial release
+1.0.1|February 18, 2021|Added support for metadata columns
+1.0.2|February 21, 2021|Fixed `gulp build` issues
 
 ## Disclaimer
 
