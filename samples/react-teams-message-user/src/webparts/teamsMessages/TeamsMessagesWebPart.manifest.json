@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "4f45c562-805c-42da-81cc-8e84bf7834b0",
-  "alias": "TreeOrgChartWebPart",
+  "id": "af807f68-01ba-4af3-b842-87cf02ae7fb9",
+  "alias": "TeamsMessagesWebPart",
   "componentType": "WebPart",
 
   // The "*" signifies that the version should be taken from the package.json
@@ -12,18 +12,16 @@
   // Components that allow authors to embed arbitrary script code should set this to true.
   // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
   "requiresCustomScript": false,
-//"viewType": 1,
+  "supportedHosts": ["SharePointWebPart"],
+
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
     "group": { "default": "Other" },
-    "title": { "default": "Tree Organization Chart" },
-    "description": { "default": "Tree Organization Chart" },
-    "officeFabricIconFontName": "Org",
+    "title": { "default": "teams-messages" },
+    "description": { "default": "teams-messages description" },
+    "officeFabricIconFontName": "Page",
     "properties": {
-      "title": "My Team Organization Chart",
-      "currentUserTeam": true,
-      
-      "maxLevels": 5
+      "description": "teams-messages"
     }
   }]
 }
